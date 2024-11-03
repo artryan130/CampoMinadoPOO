@@ -49,4 +49,12 @@ O jogo é estruturado em classes, cada uma responsável por uma funcionalidade e
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/seurepositorio.git
+   git clone https://https://github.com/artryan130/CampoMinadoPOO
+
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd JogoCampoMinadoPOO
+
+3. Execute o jogo:
+   ```bash
+   python main.py
