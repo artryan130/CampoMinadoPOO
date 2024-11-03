@@ -34,12 +34,10 @@ O jogo é estruturado em classes, cada uma responsável por uma funcionalidade e
 ### Tela do Tabuleiro
 ![Tela do Tabuleiro1](images/TelaTabuleiroFacil.png)
 ![Tela do Tabuleiro2](images/TelaTabuleiroMedio.png)
-![Tela do Tabuleiro3](images/TelaTabuleiroDificil.png)
+![Tela do Tabuleiro3](images/TelaTabuleiroDifcil.png)
 
 ### Ranking
 ![Tela do Ranking](images/Ranking.png)
-
-> **Nota**: Substitua `url_da_imagem_identificacao`, `url_da_imagem_tabuleiro` e `url_da_imagem_ranking` pelos URLs das imagens que você deseja exibir no GitHub. Você pode fazer upload dessas imagens na seção de "Issues" ou "Pull Requests" do seu repositório e usar o link gerado, ou ainda salvá-las no próprio repositório e referenciá-las aqui.
 
 ## Executando o Projeto
 
