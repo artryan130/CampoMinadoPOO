@@ -1,51 +1,52 @@
-# CampoMinadoPOO
+# Jogo de Campo Minado
 
-Campo Minado em Python
-Este é um projeto de Campo Minado desenvolvido em Python, utilizando uma abordagem orientada a objetos e a biblioteca Tkinter para a interface gráfica. O jogo oferece uma experiência de quebra-cabeça com diferentes níveis de dificuldade e mantém um ranking de pontuações dos jogadores.
+Um jogo de Campo Minado desenvolvido em Python, utilizando a biblioteca Tkinter para a interface gráfica e JSON para armazenamento do ranking.
 
-Funcionalidades
-Interface Gráfica com Tkinter: Interface intuitiva que permite ao usuário interagir com o tabuleiro de forma visual.
-Níveis de Dificuldade: Três níveis de dificuldade disponíveis: Fácil, Médio e Difícil, cada um com um tabuleiro de tamanho e número de bombas diferentes.
-Ranking de Pontuações: Sistema de ranking que salva e exibe as pontuações dos 5 melhores jogadores.
-Progressão de Nível: O jogador avança de nível ao completar o tabuleiro atual sem acionar bombas.
-Detecção de Bombas e Casas Vazias: O jogo revela automaticamente células adjacentes quando uma célula vazia é aberta.
-Estrutura do Projeto
-Classes Principais
-BancoDeDados: Classe para gerenciamento do ranking de pontuações, salvando e carregando dados de um arquivo JSON.
-Celula: Representa cada célula do tabuleiro, armazenando se é uma bomba, se foi revelada, e o número de bombas adjacentes.
-Interface: Classe que gerencia a interface do jogo, incluindo a tela inicial, o tabuleiro, e o ranking.
-Jogo: Classe principal que gerencia o progresso do jogo, a lógica de avanço de nível e as jogadas do usuário.
-Tabuleiro: Responsável pela criação e manipulação do tabuleiro, posicionamento das bombas e revelação das células adjacentes.
-Imagens
-Tela de Identificação do Usuário
+## Funcionalidades
 
-Tela do Jogo - Tabuleiro
+- **Três níveis de dificuldade**: Fácil, Médio e Difícil, cada um com diferentes tamanhos de tabuleiro e número de bombas.
+- **Sistema de Ranking**: Salva as pontuações dos jogadores em um arquivo JSON e exibe o ranking dos melhores jogadores.
+- **Interface gráfica com Tkinter**: O jogo possui uma interface amigável, onde o usuário pode interagir com o tabuleiro e visualizar suas pontuações.
 
-Tela de Ranking
+## Estrutura do Projeto
 
-Requisitos
-Python 3.x
-Tkinter (geralmente já incluído nas distribuições Python)
-JSON (incluído no Python)
-Como Executar
-Clone o repositório:
-bash
-Copiar código
-git clone https://github.com/seuusuario/seurepositorio.git
-Navegue até o diretório do projeto:
-bash
-Copiar código
-cd campo-minado
-Execute o jogo:
-bash
-Copiar código
-python main.py
-Como Jogar
-Iniciar Jogo: Digite seu nome na tela inicial e clique em "Iniciar".
-Selecionar Células: Clique em uma célula no tabuleiro para revelar seu conteúdo.
-Se a célula contiver uma bomba, você será movido para o próximo nível (ou o jogo terminará se for o último nível).
-Se a célula estiver vazia, as células adjacentes também serão reveladas automaticamente.
-Avançar de Nível: Complete cada tabuleiro sem acionar bombas para avançar ao próximo nível.
-Consultar Ranking: O ranking com as pontuações dos 5 melhores jogadores pode ser acessado na tela inicial.
-Contribuição
-Contribuições são bem-vindas! Se você tiver sugestões, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+O jogo é estruturado em classes, cada uma responsável por uma funcionalidade específica:
+
+- `BancoDeDados`: Gerencia o ranking dos jogadores, salvando e carregando pontuações.
+- `Celula`: Representa cada célula do tabuleiro, com atributos para verificar se contém uma bomba, se já foi revelada e o número de bombas adjacentes.
+- `Interface`: Cuida da interface gráfica com Tkinter, exibindo telas de identificação, tabuleiro do jogo e ranking.
+- `Jogo`: Controla o fluxo do jogo, processando jogadas e níveis.
+- `Tabuleiro`: Configura o tabuleiro, posiciona bombas aleatoriamente e define o número de bombas adjacentes para cada célula.
+
+## Como Jogar
+
+1. Digite seu nome na tela de identificação e clique em **Iniciar**.
+2. Escolha uma célula no tabuleiro. Se a célula contiver uma bomba, você perde o nível e avança para o próximo, se disponível.
+3. Caso revele todas as células sem bomba, você avança para o próximo nível.
+4. A cada nível concluído, o tabuleiro aumenta de tamanho e a dificuldade é ajustada.
+5. No final, sua pontuação é salva e você pode visualizá-la no ranking.
+
+## Imagens da Interface
+
+### Tela de Identificação
+![Tela de Identificação](url_da_imagem_identificacao)
+
+### Tela do Tabuleiro
+![Tela do Tabuleiro](url_da_imagem_tabuleiro)
+
+### Ranking
+![Tela do Ranking](url_da_imagem_ranking)
+
+> **Nota**: Substitua `url_da_imagem_identificacao`, `url_da_imagem_tabuleiro` e `url_da_imagem_ranking` pelos URLs das imagens que você deseja exibir no GitHub. Você pode fazer upload dessas imagens na seção de "Issues" ou "Pull Requests" do seu repositório e usar o link gerado, ou ainda salvá-las no próprio repositório e referenciá-las aqui.
+
+## Executando o Projeto
+
+### Pré-requisitos
+
+- Python 3.x instalado.
+
+### Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seuusuario/seurepositorio.git
