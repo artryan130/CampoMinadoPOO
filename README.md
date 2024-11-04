@@ -17,7 +17,7 @@ O jogo é estruturado em classes, cada uma responsável por uma funcionalidade e
 - `Interface`: Cuida da interface gráfica com Tkinter, exibindo telas de identificação, tabuleiro do jogo e ranking.
 - `Jogo`: Controla o fluxo do jogo, processando jogadas e níveis.
 - `Tabuleiro`: Configura o tabuleiro, posiciona bombas aleatoriamente e define o número de bombas adjacentes para cada célula.
-- - `Usuario`: Controla o nome do jogador e sua pontuação.
+- `Usuario`: Controla o nome do jogador e sua pontuação.
 
 ## Como Jogar
 
