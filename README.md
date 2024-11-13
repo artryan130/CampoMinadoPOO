@@ -19,6 +19,9 @@ O jogo é estruturado em classes, cada uma responsável por uma funcionalidade e
 - `Tabuleiro`: Configura o tabuleiro, posiciona bombas aleatoriamente e define o número de bombas adjacentes para cada célula.
 - `Usuario`: Controla o nome do jogador e sua pontuação.
 
+## Fluxograma do Projeto
+![Tela de Identificação](images/fluxograma.pdf)
+
 ## Como Jogar
 
 1. Digite seu nome na tela de identificação e clique em **Iniciar**.
