@@ -20,7 +20,8 @@ O jogo é estruturado em classes, cada uma responsável por uma funcionalidade e
 - `Usuario`: Controla o nome do jogador e sua pontuação.
 
 ## Fluxograma do Projeto
-![Tela de Identificação](images/fluxograma.pdf)
+
+O fluxograma completo do projeto pode ser encontrado na pasta images/fluxograma.pdf ou pelo link: https://miro.com/app/board/uXjVLFjJ0do=/?share_link_id=750714267156
 
 ## Como Jogar
 
