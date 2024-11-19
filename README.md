@@ -23,6 +23,13 @@ O jogo é estruturado em classes, cada uma responsável por uma funcionalidade e
 
 O fluxograma completo do projeto pode ser encontrado na pasta images/fluxograma.pdf ou pelo link: https://miro.com/app/board/uXjVLFjJ0do=/?share_link_id=750714267156
 
+## Diagrama UML do Projeto
+
+O diagrama UML completo do projeto foi descrito da seguinte forma:
+![Diagrama UML](images/UML.png)
+
+Ou pelo link: https://app.diagrams.net/#G1o0w57dQgoLlr99m-JOQW5InJsCg-zz-Y#%7B%22pageId%22%3A%22C5RBs43oDa-KdzZeNtuy%22%7D
+
 ## Como Jogar
 
 1. Digite seu nome na tela de identificação e clique em **Iniciar**.
